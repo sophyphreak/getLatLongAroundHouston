@@ -1,0 +1,16 @@
+{
+  "name": "getLatLongAroundHouston",
+  "version": "1.0.0",
+  "main": "getLatLongAroundHouston.js",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "prettier": "1.16.4",
+    "pretty-quick": "^1.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
